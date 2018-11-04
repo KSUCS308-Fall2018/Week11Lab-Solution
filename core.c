@@ -15,12 +15,6 @@
 #include "triangle.h"
 
 int core_main(int argc, const char * argv[]) {
-
-    Shape * s = new_triangle(3, 4, 5);
-
-    printf("Area: %f", s->area(s));
-    printf("perimeter: %f", s->perimeter(s));
-
     return 0;
 }
 
